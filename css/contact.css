@@ -216,12 +216,13 @@ body {
     }
 
     .c4 {
-        width: 100%;
+        justify-content: start;
     }
 
     .c4 div img {
         width: 50px;
         padding-right: 70px;
+        padding-bottom: 10px;
     }
 
     #k1 {
