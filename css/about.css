@@ -140,25 +140,35 @@ body {
 
     .aboutme div img {
         padding-left: 50px;
+        padding-top: 20px;
     }
 
     .aboutdiv {
         padding-left: 50px;
-        width: 400px
+        padding-top: 50px;
+        width: 100%px
     }
 
     #about {
-        padding-left: 50px;
+        color: #670000;
+        font-size: 28px;
+        margin-top: 90px;
+        margin-left: 50px;
     }
 
     .aboutme {
         flex-direction: column;
+        background-color: white;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        margin-top: 80px;
     }
 
     .about2div {
         flex-direction: column;
         padding-left: 50px;
-        padding-top: 600px;
+        padding-top: 300px;
     }
 
     .aboutdiv div p {
@@ -166,6 +176,6 @@ body {
     }
 
     #w1 {
-        font-size: 45px;
+        font-size: 40px;
     }
 }

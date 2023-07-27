@@ -62,7 +62,10 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-
+    .homepage {
+        background-color: #FFEFAE;
+        height: 700px;
+    }
 
     #img {
         margin-left: 45px;
@@ -98,5 +101,12 @@ body {
         text-align: center;
         position: relative;
         top: 100px;
+    }
+
+    #software {
+        font-size: 25px;
+        color: #670000;
+        padding-top: 150px;
+        padding-left: 190px;
     }
 }

@@ -144,6 +144,14 @@ body {
     margin-left: 30px;
 }
 
+#tel {
+    padding-top: 15px;
+}
+
+#mail {
+    padding-top: 15px;
+}
+
 @media screen and (max-width: 600px) {
     #img {
         margin-left: 45px;
@@ -165,5 +173,73 @@ body {
     .button {
         width: 200px;
         padding-left: 50px;
+    }
+
+    #contact {
+        color: #670000;
+        font-size: 28px;
+        margin-top: 90px;
+        margin-left: 50px;
+    }
+
+    .contactme {
+        background-color: white;
+        height: 600px;
+        margin-top: 80px;
+        padding-left: 50px;
+        padding-top: 100px;
+    }
+
+    .c1 {
+        flex-direction: column;
+    }
+
+    .c2 {
+        flex-direction: column;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    .c2 div {
+        border: #D5D5D5 solid 2px;
+        width: 350px;
+        color: #D5D5D5;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .c3 {
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+
+    .c4 div img {
+        width: 50px;
+        padding-right: 70px;
+    }
+
+    #k1 {
+        border: #D5D5D5 solid 2px;
+        width: 350px;
+        color: #D5D5D5;
+        height: 250px;
+        padding-left: 20px;
+        padding-top: 15px;
+    }
+
+    #k2 {
+        border: #D5D5D5 solid 2px;
+        width: 350px;
+        color: #D5D5D5;
+        padding-left: 20px;
+        padding-top: 15px;
+        margin-bottom: 25px;
+        padding-bottom: 15px;
+    }
+
+    #email {
+        margin-top: 25px;
     }
 }
