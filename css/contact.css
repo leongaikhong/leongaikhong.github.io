@@ -73,9 +73,9 @@ body {
     border: #D5D5D5 solid 2px;
     width: 800px;
     color: black;
-    height: 250px;
     padding-left: 20px;
     padding-top: 15px;
+    padding-bottom: 200px;
 }
 
 #k2 input {
@@ -95,10 +95,8 @@ body {
 
 .c2 {
     display: flex;
-    width: 800px;
     margin-bottom: 25px;
     margin-top: 25px;
-    padding-right: 0px;
     justify-content: space-between;
 }
 
@@ -144,6 +142,10 @@ body {
 
 .class1 {
     margin-left: 30px;
+}
+
+#map {
+    padding-top: 20px;
 }
 
 #tel {
