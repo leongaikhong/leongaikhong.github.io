@@ -69,19 +69,19 @@ body {
     font-size: 20px;
 }
 
-#k1 {
+#k1 input {
     border: #D5D5D5 solid 2px;
     width: 800px;
-    color: #D5D5D5;
+    color: black;
     height: 250px;
     padding-left: 20px;
     padding-top: 15px;
 }
 
-#k2 {
+#k2 input {
     border: #D5D5D5 solid 2px;
     width: 800px;
-    color: #D5D5D5;
+    color: black;
     padding-left: 20px;
     padding-top: 15px;
     margin-bottom: 25px;
@@ -98,15 +98,17 @@ body {
     width: 800px;
     margin-bottom: 25px;
     margin-top: 25px;
+    padding-right: 0px;
+    justify-content: space-between;
 }
 
-.c2 div {
+.c2 div input {
     border: #D5D5D5 solid 2px;
-    width: 380px;
-    color: #D5D5D5;
+    color: black;
     padding-left: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
+    width: 380px;
 }
 
 .c3 {
