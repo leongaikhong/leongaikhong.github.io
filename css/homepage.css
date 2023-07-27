@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+}
+
+.homepage {
+    background-color: #FFEFAE;
+    height: 713px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+#img {
+    margin-left: 80px;
+}
+
+.link {
+    display: flex;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.link div a {
+    padding-right: 10px;
+    text-decoration: none;
+    padding-left: 40px;
+    color: #670000;
+}
+
+.button {
+    margin-right: 80px;
+}
+
+.button a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    background-color: #670000;
+    padding-top: 18px;
+    padding-right: 65px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+}
+
+#name {
+    font-family: 'Meera Inimai', sans-serif;
+    font-size: 250px;
+    color: #670000;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+#software {
+    font-size: 30px;
+    color: #670000;
+    padding-top: 200px;
+    padding-left: 1000px;
+}
+
+@media screen and (max-width: 600px) {
+    #img {
+        margin-left: 45px;
+    }
+
+    .nav {
+        flex-direction: column;
+    }
+
+    .link {
+        flex-wrap: wrap;
+        padding-left: 10px;
+    }
+
+    .link div {
+        padding-bottom: 10px;
+    }
+
+    .button {
+        width: 200px;
+        padding-left: 50px;
+    }
+
+    #software {
+        padding-top: 200px;
+        padding-left: 180px;
+    }
+
+    #name {
+        font-family: 'Meera Inimai', sans-serif;
+        font-size: 100px;
+        color: #670000;
+        text-align: center;
+        position: relative;
+        top: 100px;
+    }
+}

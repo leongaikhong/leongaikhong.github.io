@@ -1,0 +1,149 @@
+body {
+    margin: 0px;
+}
+
+.portfoliopage {
+    background-color: #FFEFAE;
+    height: 570px;
+}
+
+.portfoliopage2 {
+    height: 400px;
+}
+
+.portfoliopage3 {
+    height: 1100px;
+    background-color: #FFEFAE;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+#img {
+    margin-left: 80px;
+}
+
+.link {
+    display: flex;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.link div a {
+    padding-right: 10px;
+    text-decoration: none;
+    padding-left: 40px;
+    color: #670000;
+}
+
+.button {
+    margin-right: 80px;
+}
+
+.button a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    background-color: #670000;
+    padding-top: 18px;
+    padding-right: 65px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+}
+
+#portfolio {
+    color: #670000;
+    font-size: 28px;
+    margin-top: 90px;
+    margin-left: 173px;
+}
+
+.portfolio {
+    background-color: white;
+    width: 1420px;
+    height: 600px;
+    margin-top: 120px;
+}
+
+#d1 {
+    font-size: 60px;
+    color: #670000;
+    text-align: center;
+    padding-top: 130px;
+}
+
+#d2 {
+    font-size: 60px;
+    color: #670000;
+    padding-top: 130px;
+    padding-bottom: 30px;
+}
+
+.myexpertise {
+    display: flex;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.myexpertise div {
+    width: 33.3%;
+    padding-left: 15px;
+}
+
+.myexpertise2 {
+    border: #D5D5D5 solid 2px;
+    margin: 10px;
+    color: #670000;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.myexpertise div div p {
+    width: 250px;
+}
+
+.port {
+    border: #D5D5D5 solid 2px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .myexpertise {
+        flex-direction: column;
+        padding-top: 40px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    #img {
+        margin-left: 45px;
+    }
+
+    .nav {
+        flex-direction: column;
+    }
+
+    .link {
+        flex-wrap: wrap;
+        padding-left: 10px;
+    }
+
+    .link div {
+        padding-bottom: 10px;
+    }
+
+    .button {
+        width: 200px;
+        padding-left: 50px;
+    }
+}
